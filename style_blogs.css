@@ -1,0 +1,109 @@
+body {
+	background-color: rgba(216, 216, 216, 1); 
+	font-family: Lato,Helvetica,Arial,sans-serif;
+	line-height: 1.5;
+}
+
+p {
+	
+	color: #F2F2F2;
+}
+
+ol {
+	line-height: 1.5;
+	color: #F2F2F2;
+}
+
+.container0 {
+	background-color:  rgba(19, 56, 165, 1);
+	padding-top: 30px;
+	padding-bottom:10px;
+	padding-left: 30px;
+	padding-right: 30px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	margin-right: 63px;
+	margin-left: 63px;
+	border-radius: 0; 
+}
+
+.container1 {
+	background-color:  rgba(19, 56, 165, 1);
+	padding-top: 30px;
+	padding-bottom:10px;
+	padding-left: 30px;
+	padding-right: 30px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	margin-right: 63px;
+	margin-left: 63px;
+	border-radius: 0; 
+}
+
+.container2 {
+	background-color:  rgba(19, 56, 165, 1);
+	padding-top: 10px;
+	padding-bottom:30px;
+	padding-left: 30px;
+	padding-right: 30px;
+	margin-top: 10px;
+	margin-bottom: 20px;
+	margin-right: 63px;
+	margin-left: 63px;
+	border-radius: 0; 
+}
+.card {
+	border: none;
+}
+
+.img-fluid {
+	padding-left: 30px;
+	padding-bottom: 30px
+}
+
+.card-body{
+	padding:0px;
+}
+/* Color Theme Swatches in Hex 
+.TRIANGLED---Immersive-Light-Installation-1-hex { color: #BF1736; }
+.TRIANGLED---Immersive-Light-Installation-2-hex { color: #0D1440; }
+.TRIANGLED---Immersive-Light-Installation-3-hex { color: #1438A6; }
+.TRIANGLED---Immersive-Light-Installation-4-hex { color: #0E2773; }
+.TRIANGLED---Immersive-Light-Installation-5-hex { color: #1455D9; } */
+
+
+/* Color Theme Swatches in RGBA 
+.TRIANGLED---Immersive-Light-Installation-1-rgba { color: rgba(191, 22, 53, 1); }
+.TRIANGLED---Immersive-Light-Installation-2-rgba { color: rgba(12, 20, 63, 1); }
+.TRIANGLED---Immersive-Light-Installation-3-rgba { color: rgba(19, 56, 165, 1); }
+.TRIANGLED---Immersive-Light-Installation-4-rgba { color: rgba(13, 39, 114, 1); }
+.TRIANGLED---Immersive-Light-Installation-5-rgba { color: rgba(19, 85, 216, 1); }*/
+
+/* Color Theme Swatches in HSLA 
+.TRIANGLED---Immersive-Light-Installation-1-hsla { color: hsla(348, 78, 42, 1); }
+.TRIANGLED---Immersive-Light-Installation-2-hsla { color: hsla(230, 66, 15, 1); }
+.TRIANGLED---Immersive-Light-Installation-3-hsla { color: hsla(225, 78, 36, 1); }
+.TRIANGLED---Immersive-Light-Installation-4-hsla { color: hsla(225, 78, 25, 1); }
+.TRIANGLED---Immersive-Light-Installation-5-hsla { color: hsla(219, 83, 46, 1); }
+*/
+
+/* Color Theme Swatches in Hex 
+.dark-black-color-triangle-blur-gradient-background-design.-Abstract-geometric-background-with-liquid-shapes-1-hex { color: #242625; }
+.dark-black-color-triangle-blur-gradient-background-design.-Abstract-geometric-background-with-liquid-shapes-2-hex { color: #727372; }
+.dark-black-color-triangle-blur-gradient-background-design.-Abstract-geometric-background-with-liquid-shapes-3-hex { color: #D9D9D9; }
+.dark-black-color-triangle-blur-gradient-background-design.-Abstract-geometric-background-with-liquid-shapes-4-hex { color: #595959; }
+.dark-black-color-triangle-blur-gradient-background-design.-Abstract-geometric-background-with-liquid-shapes-5-hex { color: #0D0D0D; }
+*/
+/* Color Theme Swatches in RGBA 
+.dark-black-color-triangle-blur-gradient-background-design.-Abstract-geometric-background-with-liquid-shapes-1-rgba { color: rgba(35, 38, 36, 1); }
+.dark-black-color-triangle-blur-gradient-background-design.-Abstract-geometric-background-with-liquid-shapes-2-rgba { color: rgba(113, 114, 114, 1); }
+.dark-black-color-triangle-blur-gradient-background-design.-Abstract-geometric-background-with-liquid-shapes-3-rgba { color: rgba(216, 216, 216, 1); }
+.dark-black-color-triangle-blur-gradient-background-design.-Abstract-geometric-background-with-liquid-shapes-4-rgba { color: rgba(89, 89, 89, 1); }
+.dark-black-color-triangle-blur-gradient-background-design.-Abstract-geometric-background-with-liquid-shapes-5-rgba { color: rgba(12, 12, 12, 1); }
+*/
+/* Color Theme Swatches in HSLA 
+.dark-black-color-triangle-blur-gradient-background-design.-Abstract-geometric-background-with-liquid-shapes-1-hsla { color: hsla(146, 3, 14, 1); }
+.dark-black-color-triangle-blur-gradient-background-design.-Abstract-geometric-background-with-liquid-shapes-2-hsla { color: hsla(146, 0, 44, 1); }
+.dark-black-color-triangle-blur-gradient-background-design.-Abstract-geometric-background-with-liquid-shapes-3-hsla { color: hsla(0, 0, 85, 1); }
+.dark-black-color-triangle-blur-gradient-background-design.-Abstract-geometric-background-with-liquid-shapes-4-hsla { color: hsla(0, 0, 35, 1); }
+.dark-black-color-triangle-blur-gradient-background-design.-Abstract-geometric-background-with-liquid-shapes-5-hsla { color: hsla(0, 0, 5, 1); }*/

@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<!-- Meta Tags Needed for the site -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!-- Links to Bootstrap CSS, Google Fonts and Custom Stylesheet --> 
+  
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/font-awesome.min.css">
+  
+  <link rel="stylesheet" type="text/css" href="style_blogs.css">
+ 
+  <script src="https://kit.fontawesome.com/c982427615.js" crossorigin="anonymous"></script>
+  
+  <title>My Blog Site</title>
+
+</head>
+
+<body>
+<!-- Implementation of the Top Nav bar. The navigation button appears when the viewport is adjusted to medium or small.. On a full screen, the navigation links show up and are linked to the current page, the blog page and project portfolio pages.  I have used the btn and a form field to implement the search button. this will eventually hook into a public search API -->
+
+<nav class="navbar navbar-expand-lg sticky-top" style="background-color: #BF1736">
+  <a class="navbar-brand" href="">
+  <img src="./assets/images/coding.jfif" width="30" height="30"></a> 
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item">
+        <a class="nav-link" href="index.html" style="color: #F2F2F2">About <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item active">
+        <a class="nav-link" href="#" style="color: #F2F2F2">Blogs</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link"  href="portfolio.html" style="color: #F2F2F2"> Portfolio</a>
+      </li>
+    </ul>
+    <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+      <button class="btn btn-secondary my-2 my-sm-0" type="submit">Search</button>
+    </form>
+  </div>
+</nav>     
+
+<div class="container0">
+  <div class="jumbotron" style="background-color: #737373">
+        <img class="rounded float-left" src="./assets/images/AdobeStock_237537437_Blog.jpg" height="250px" width="200px" style="margin: 10px">
+        <h4 class="display-4"><em>The Anatomy of Digital Transformation in IT</em></h4>
+    <hr class="my-6">
+    <p class="lead">Rapid advances in digital technologies are enabling disruptive and exponential business models that continue to create existential threats for Fortune 1000 companies. The IT function is caught in the middle of this perfect storm and is grappling with keeping the lights on and meeting the demands of breakneck digital innovation.</p><br>
+    <a href="#Anatomy" class="btn btn-primary btn-lg" onclick="">Continue Reading...</a>
+  </div>
+</div>
+
+<div class="container1" style="background-color: rgba(19,85,216,1)">
+  <div class="row">
+    <div class="col-md-12">
+      <h2 class="" style="color: #F2F2F2">Recent Blogs</h2> 
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-3">
+      <div class="card">
+        <div class="card-block" style="background-color: rgba(19,85,216,1)">
+          <div class="card-image"> <img class="card-img-top" src="./assets/images/blogger.jpg"></div>
+          <div class= "card-title" style="color: #F2F2F2">Digital Architecture</div>
+          <div class="card-body">
+            <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+          tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
+            <a href="#" class= "btn btn-dark">Continue Reading</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  
+    <div class="col-md-3">
+      <div class="card">
+        <div class="card-block" style="background-color: rgba(19,85,216,1)">
+          <div class="card-image"> <img class="card-img-top" src="./assets/images/blogger.jpg"></div>
+          <div class= "card-title" style="color: #F2F2F2">Experience Design</div>
+          <div class="card-body">
+            <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+          tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
+            <a href="#" class= "btn btn-dark">Continue Reading</a>
+          </div>
+        </div>
+      </div>      
+    </div>
+    <div class="col-md-3">
+      <div class="card">
+        <div class="card-block" style="background-color: rgba(19,85,216,1)">
+          <div class="card-image"> <img class="card-img-top" src="./assets/images/blogger.jpg"></div>
+          <div class= "card-title" style="color: #F2F2F2">Product Development</div>
+          <div class="card-body">
+            <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+          tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
+            <a href="#" class= "btn btn-dark">Continue Reading</a>
+          </div>
+        </div>
+      </div>  
+    </div>
+    <div class="col-md-3">
+      <div class="card">
+        <div class="card-block" style="background-color: rgba(19,85,216,1)">
+          <div class="card-image"> <img class="card-img-top" src="./assets/images/blogger.jpg"></div>
+          <div class= "card-title" style="color: #F2F2F2">Intelligent Automation</div>
+          <div class="card-body">
+            <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+          tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
+            <a href="#" class= "btn btn-dark">Continue Reading</a>
+          </div>
+        </div>
+      </div>  
+    </div>
+  </div>
+</div>
+
+<div class="container2" style="background-color: rgba(19,85,216,1)">
+  <div class="row">
+    <div class="col-md-12">
+      <h2 class="display-5" style="color: #F2F2F2">Digital Product Engineering Blogs</h2> 
+      <hr class="my-2">
+    </div>
+  
+  <div class="row">
+    <div class="col-md-12">
+      <div class="card">
+        <div id="Anatomy" class="card-block" style="background-color: rgba(19,85,216,1)">
+          <div class="card-image"> <img class="card-img-top" src="./assets/images/AdobeStock_237537437_Blog.jpg"></div>
+          <div class= "card-title" style="color: #F2F2F2"><h3 class="display-5"> The Anatomy of Digital Transformation in IT</h3></div>
+          <div class="card-body">
+            <p style> Rapid advances in digital technologies are enabling disruptive and exponential business models that continue to create existential threats for Fortune 1000 companies. The IT function is caught in the middle of this perfect storm and is grappling with keeping the lights on and meeting the demands of breakneck digital innovation.</p>
+
+            <p>Based on a recent McKinsey Global Survey around raising expectations for IT, 85% of respondents indicate that their organizations want operating models to be “fully digital,” but only 18% indicate that they have a roadmap to get there. Additionally, there is continued pressure to reduce operating costs and minimize cybersecurity risks.</p>
+
+            <p>In order to meet this dual mandate, IT leaders have to not only evaluate, implement, and digest new digital technologies, they have to rethink how they are organized and the critical values they need to embrace to be successful.</p>
+
+            <p>Here is a distillation of what Paradigm believes are the value pillars and key technologies that IT has to embrace to get closer to being “fully digital.”</p>
+
+            <h4>Digital Business Agility</h4>
+             <p>IT leadership needs to become more aware and attuned to the changing business models and strategies driving their business. A lot of IT discussions on Agility quickly degenerate into a project management discussion (Agile/Scrum, etc..). Though having an Agile framework is important for execution, it is not the motor that drives digital business agility. Business-aware IT leadership, a product management mindset, and a flat organization are keys to achieving success.</p>
+
+<p>The classic IT operating model doesn’t fit the modern fully digital enterprise. Some of the key characteristics that are cornerstones of the classic IT model include annual investment planning, a project versus operations organization structure, hierarchical organization structure, and lack of a cohesive outsourcing strategy to fill talent gaps. These characteristics become significant bottlenecks in transformation.</p>
+<p>
+“Innovation dies in ops” is a great quote by Tobias Kunze, founder of Red Hat OpenShift, that summarizes the thinking on how to introduce and transform the IT function. IT should organize around products rather than projects and operations. Operations teams responsible for managing day-to-day support and operations should be empowered to transform into “product management” teams to work directly with domain experts and business users and take end-to-end accountability for the evolution and roadmap of the applications in addition to continuing to be responsible for the reliability, scalability, and distribution of applications.</p>
+
+<h4>Domain Driven </h4>
+<p>Product management teams must be equipped with principles, methodologies, and tools that allow them to build a library of domain models relevant to the business/functions that they support. Having a common domain model serves three critical needs:</p>
+
+<ol>
+  <li>Enables a common, ubiquitous “business” language that binds the product team of business domain experts, IT architects, designers, engineering partners, and developers</li>
+<li>Establishes a framework for documenting capabilities that can translate into software and application features minimizing friction and overhead during design</li>
+<li>Provides a basis for IT and Business leadership to organize product management teams </li></ol>
+
+<h4>User Experience </h4>
+<p>
+Human-factors engineering has rapidly evolved from UI design to a more complex discipline that requires the amalgamation of engineering, psychology, and design thinking. With the rapid evolution of emerging technologies around virtual reality (VR), augmented reality (AR), wearables, and autonomous computing, user interface design has evolved to include “experience journey” design and “interaction” design. The traditional interaction of humans with computers (keyboard and mouse) have shifted with gestures, touch screens and context sensitive telemetry-based interfaces. Additionally, with the evolution of mobile web, modern applications have to be designed and built to take advantage of all of these interfaces to support a system of omnichannel engagement that transforms user experience.</p>
+<p>
+Focusing on user experience journeys and having the design capabilities in a product team is critical to the success of moving a business closer to the “fully digital” goals.</p>
+
+<h4>Microservices Architecture Pattern</h4>
+<p>
+Microservices is not a silver bullet to modernize an organization’s legacy but it is one of the most attractive ways to modernize an aging portfolio and future proof it from infrastructure and technology frameworks. The advantages of agility, scalability, and distribution can outweigh the costs (distribution tax) and risks (network latency, reliability) associated with a microservices implementation.
+</p>
+<p>
+It is imperative that product teams conduct in-depth assessments of whether a microservices architecture pattern makes sense for the product. There will be exceptions to where to maintain a monolithic architecture for a product as business capabilities and technologies continue to evolve at a dizzying pace.
+</p>
+<p>
+It is important to note that migrating to a microservices architecture for mission critical enterprise systems is probably the toughest of all the digital transformations and cannot be undertaken without significant executive commitment and sponsorship.
+</p>
+  
+<h4>Web Applications</h4>
+<p>
+The next billion web users are all going to be on mobile. Mobile web users represent a new frontier and a challenge for organizations trying to capture new markets, increase market share, or improve loyalty. The traditional web applications are not equipped to handle the nuances of a mobile web user. With the proliferation of the end-user platform (number of devices and number of operating systems) it is becoming hard for businesses to build and support native applications. Native app fatigue is starting to set in.
+</p>
+<p>
+Progressive web apps allow for transition to accelerate the journey to “fully digital” by enabling user experiences that are fast, integrated, reliable and engaging. They enable a potential transition from native apps and allows users to engage with web applications independent of network connectivity, all while maintaining security and taking advantage of all native device capabilities.
+</p>
+
+<h4>Graph Analytic Applications</h4>
+<p>
+The conventional approach of relational database design and implementation needs to give way to a more organic, loosely coupled, and rapidly evolving data model that can integrate and connect data across multiple domains as well as change and evolve without complex ETL and reengineering the pipelines as entities, relationships, and attributes change and evolve over time. The persistence layer also needs the ability to generate actionable insights and intelligence at source.
+</p>
+<p>  
+There are multiple IT and Business use cases across industries where re-platforming to a graph database with an open source visualization library would not only enable more proactive and deeper business insights that can drive personalization and customer loyalty as well as improve conversions but reduce costs and optimize risks for the enterprise.
+</p>
+<p>  
+These foundational elements and the critical technology capabilities represent the nerve centers of a modern digital IT organization.
+</p>
+<p>  
+These nerve centers not only have to be optimized individually but have to function and interact seamlessly with one another.
+</p>
+<p>  
+Over the next several posts in this series, we will dig deeper and demonstrate how Paradigm’s Digital Product Engineering Services can help activate and energize each of these nerve centers to unleash the power of digital IT to make your business “fully digital”.</p>
+          <hr class="my-4">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-md-12">
+      <div class="card">
+        <div class="card-block" style="background-color: rgba(19,85,216,1)">
+          <div class="card-image"> <img class="card-img-top" src="./assets/images/blogger.jpg"></div>
+          <div class= "card-title" style="color: #F2F2F2">Target IT Operating Model</div>
+          <div class="card-body">
+            <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+          tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
+          <hr class="my-4">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <div class="row">
+    <div class="col-md-12">
+      <div class="card">
+        <div class="card-block" style="background-color: rgba(19,85,216,1)">
+          <div class="card-image"> <img class="card-img-top" src="./assets/images/blogger.jpg"></div>
+          <div class= "card-title" style="color: #F2F2F2">Experience Design</div>
+          <div class="card-body">
+            <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+          tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
+            <a href="#" class= "btn btn-dark">Continue Reading</a>
+          </div>
+        </div>
+      </div>      
+    </div>
+  </div>
+</div>
+
+</body>
+
+</html> 

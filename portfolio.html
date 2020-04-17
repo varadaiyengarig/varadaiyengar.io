@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<!-- Meta Tags Needed for the site -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!-- Links to Bootstrap CSS, Google Fonts and Custom Stylesheet --> 
+  
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/font-awesome.min.css">
+  
+  <link rel="stylesheet" type="text/css" href="style_blogs.css">
+ 
+  <script src="https://kit.fontawesome.com/c982427615.js" crossorigin="anonymous"></script>
+  
+  <title>My Portfolio Site</title>
+
+</head>
+
+<body>
+<!-- Implementation of the Top Nav bar. The navigation button appears when the viewport is adjusted to medium or small.. On a full screen, the navigation links show up and are linked to the current page, the blog page and project portfolio pages.  I have used the btn and a form field to implement the search button. this will eventually hook into a public search API -->
+
+<nav class="navbar navbar-expand-lg sticky-top" style="background-color: #BF1736">
+  <a class="navbar-brand" href="">
+  <img src="./assets/images/coding.jfif" width="30" height="30"></a> 
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item">
+        <a class="nav-link" href="index.html" style="color: #F2F2F2">About <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="blogs.html" style="color: #F2F2F2">Blogs</a>
+      </li>
+      <li class="nav-item active">
+        <a class="nav-link"  href="" style="color: #F2F2F2"> Portfolio</a>
+      </li>
+    </ul>
+    <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+      <button class="btn btn-secondary my-2 my-sm-0" type="submit">Search</button>
+    </form>
+  </div>
+</nav>     
+
+<div class="container0" style="background-color: rgba(19, 85, 216, 1)">
+  <div class="jumbotron" style="background-color: #737373">
+        <img class="rounded float-left" src="./assets/images/AdobeStock_237537437_Blog.jpg" height="250px" width="200px" style="margin: 10px">
+        <h4 class="display-4"><em>My Website</em></h4>
+    <hr class="my-6">
+    <p class="lead"> Here is my first website created with HTML5/CSS3 using Bootstrap 4</p><br>
+    <a href="#mywebsite" class="btn btn-primary btn-lg" onclick="">Continue Reading...</a>
+  </div>
+</div>
+
+<div class="container1" style="background-color: rgba(19,85,216,1)">
+  <div class="row">
+    <div class="col-md-12">
+      <h2 class="" style="color: #F2F2F2">Portfolio</h2> 
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-3">
+      <div class="card">
+        <div class="card-block" style="background-color: rgba(19,85,216,1)">
+          <div class="card-image"> <img class="card-img-top" src="./assets/images/blogger.jpg"></div>
+          <div class= "card-title" style="color: #F2F2F2">My Website</div>
+          <div class="card-body">
+            <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+          tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
+            <a href="#" class= "btn btn-dark">Continue Reading</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  
+    <div class="col-md-3">
+      <div class="card">
+        <div class="card-block" style="background-color: rgba(19,85,216,1)">
+          <div class="card-image"> <img class="card-img-top" src="./assets/images/blogger.jpg"></div>
+          <div class= "card-title" style="color: #F2F2F2">Image Recognition</div>
+          <div class="card-body">
+            <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+          tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
+            <a href="#" class= "btn btn-dark">Continue Reading</a>
+          </div>
+        </div>
+      </div>      
+    </div>
+    <div class="col-md-3">
+      <div class="card">
+        <div class="card-block" style="background-color: rgba(19,85,216,1)">
+          <div class="card-image"> <img class="card-img-top" src="./assets/images/blogger.jpg"></div>
+          <div class= "card-title" style="color: #F2F2F2">Rasam Poker Tracker</div>
+          <div class="card-body">
+            <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+          tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
+            <a href="#" class= "btn btn-dark">Continue Reading</a>
+          </div>
+        </div>
+      </div>  
+    </div>
+    <div class="col-md-3">
+      <div class="card">
+        <div class="card-block" style="background-color: rgba(19,85,216,1)">
+          <div class="card-image"> <img class="card-img-top" src="./assets/images/blogger.jpg"></div>
+          <div class= "card-title" style="color: #F2F2F2">Upwork Gigs</div>
+          <div class="card-body">
+            <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+          tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
+            <a href="#" class= "btn btn-dark">Continue Reading</a>
+          </div>
+        </div>
+      </div>  
+    </div>
+  </div>
+</div>
+
+
+</body>
+
+</html> 
