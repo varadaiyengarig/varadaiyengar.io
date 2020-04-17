@@ -1,1 +1,1 @@
-# varadaiyengar.ztm.io
+# varadaiyengar.io
