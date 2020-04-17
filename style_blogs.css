@@ -57,8 +57,7 @@ ol {
 }
 
 .img-fluid {
-	padding-left: 30px;
-	padding-bottom: 30px
+	object-fit: cover
 }
 
 .card-body{

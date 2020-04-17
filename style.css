@@ -81,8 +81,8 @@ h2 {
 }
 
 .img-fluid {
-	padding-left: 30px;
-	padding-bottom: 30px
+	object-fit: cover;
+
 }
 
 .card-body{
@@ -126,7 +126,10 @@ h2 {
 	margin-right: 63px;
 	margin-left: 63px;
 	border-radius: 0; 
+
 }
+
+
 /* Color Theme Swatches in Hex 
 .TRIANGLED---Immersive-Light-Installation-1-hex { color: #BF1736; }
 .TRIANGLED---Immersive-Light-Installation-2-hex { color: #0D1440; }
